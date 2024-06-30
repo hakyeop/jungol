@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+    int a=50;
+    double b=100.12;
+    printf("%.2lf * %d = %.0lf\n", b, a, a*b);
+}
