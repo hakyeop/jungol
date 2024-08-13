@@ -5,9 +5,9 @@ int main()
     
     for(int i=0; i<10; i++){
         scanf("%d", &b);
-        if(b>c)
-            c=b;
+        if(b>a[c])
+            c=i;
         a[i]=b;
     }
-    printf("%d\n", c);
+    printf("%d\n", a[c]);
 }
